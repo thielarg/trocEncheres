@@ -1,4 +1,4 @@
-package fr.eni.cours.servlet;
+package src.fr.eni.cours.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -32,6 +32,7 @@ public class CoucouServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.getWriter().append("coucou");
 	}
 
 }
