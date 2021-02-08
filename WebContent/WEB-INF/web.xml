@@ -4,12 +4,4 @@
   <welcome-file-list>
     <welcome-file>coucou.html</welcome-file>
   </welcome-file-list>
-  <servlet>
-  	<servlet-name>Coucou</servlet-name>
-  	<jsp-file>/WEB-INF/coucou.jsp</jsp-file>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>Coucou</servlet-name>
-	<url-pattern>coucou.html</url-pattern>
-  </servlet-mapping>
 </web-app>
