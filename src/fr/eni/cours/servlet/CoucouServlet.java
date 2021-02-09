@@ -1,4 +1,4 @@
-package src.fr.eni.cours.servlet;
+package fr.eni.cours.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
